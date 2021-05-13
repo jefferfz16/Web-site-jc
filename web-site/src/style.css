@@ -23,24 +23,6 @@ ul {
   font-size: 16px;
 }
 /*Style general*/
-.d-flex {
-  display: flex;
-}
-
-.center-total {
-  justify-content: center;
-  align-items: center;
-}
-
-.center-v {
-  align-items: center;
-}
-
-.space-between {
-  justify-content: space-between;
-}
-
-
 .App {
   text-align: center;
   height: 5000px;
@@ -48,25 +30,4 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.header {
-  width: 85%;
-  height: 50px;
-}
-
-.header h3 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-
-.nav, li {
-  height: 100%;
-}
-
-.nav a {
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  padding: 0.6rem;
-  color: var(--color1);
 }

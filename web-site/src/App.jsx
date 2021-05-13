@@ -1,5 +1,5 @@
 import './style.css';
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ScrollProgress from './Components/bar-progress';
 import Header from './Components/header';
 

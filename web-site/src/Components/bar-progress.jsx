@@ -11,12 +11,13 @@ const ScrollStyle = styled.div`
     padding: 0 2px;
     display: flex;
     align-items: center;
+
+    > div {
+        height: 2px;
+        border-radius: 2px;
+        background-color: #fff;
+    }
 `;
-const Bar = styled.div`
-    height: 2px;
-    border-radius: 2px;
-    background-color: #fff;
-`
 
 const ScrollProgress = () => {
     const [scrollTop, setScrollTop] = useState(0);
@@ -43,7 +44,7 @@ const ScrollProgress = () => {
             <div className="barProgress" style={{ width: `${scrollTop}%` }}></div>
         </div> */
         <ScrollStyle>
-            <Bar style={{ width: `${scrollTop}%` }}></Bar>
+            <div style={{ width: `${scrollTop}%` }}></div>
         </ScrollStyle>
     );
 }
