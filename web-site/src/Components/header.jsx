@@ -1,6 +1,23 @@
-import '../style.css'
 import React from 'react';
 import styled from 'styled-components';
+
+const Header = () => {
+    return (
+        <HeaderContainer>
+            <h3>Jefferson cepeda</h3>
+            <ul>
+                <li>
+                    <p>Proyectos</p>
+                </li>
+                <li>
+                    <p>Contacto</p>
+                </li>
+            </ul>
+        </HeaderContainer>
+    )
+}
+
+export default Header;
 
 const HeaderContainer = styled.div`
     width: 85%;
@@ -19,14 +36,18 @@ const HeaderContainer = styled.div`
     > ul {
         display: flex;
         > li {
-            height: 100%;
-            > a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 2px;
+            > p {
                 font-size: 0.6rem;
                 text-transform: uppercase;
                 padding: 0.6rem;
                 color: var(--color1);
                 transition: 0.2s;
                 &:hover {
+                    cursor: pointer;
                     border-bottom: 2px solid var(--color1);
                 }
                 @media (min-width: 768px) {
@@ -36,17 +57,3 @@ const HeaderContainer = styled.div`
         }
     }
 `
-
-const Header = () => {
-    return (
-        <HeaderContainer>
-            <h3>Jefferson cepeda</h3>
-            <ul>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </HeaderContainer>
-    )
-}
-
-export default Header;

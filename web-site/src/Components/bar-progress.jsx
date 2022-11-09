@@ -11,6 +11,7 @@ const ScrollStyle = styled.div`
     padding: 0 2px;
     display: flex;
     align-items: center;
+    z-index: 999;
 
     > div {
         height: 2px;
@@ -27,11 +28,11 @@ const ScrollProgress = () => {
         const height =
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
-        console.log(document.documentElement);
-        console.log("height: " + height);
+        //console.log(document.documentElement);
+        //console.log("height: " + height);
 
         const scrolled = (winScroll / height) * 100;
-        console.log("scrolled: " + scrolled);
+        //console.log("scrolled: " + scrolled);
         setScrollTop(scrolled);
     };
 
