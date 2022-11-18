@@ -1,25 +1,29 @@
 import React from "react";
 import styled from "styled-components";
 import IconExternal from "../img/externalLink.svg";
-import Prueba from "../img/Projects/gifimania.png";
+import { ExternalLink } from "react-external-link";
 
-const BoxProject = () => {
+const BoxProject = ({ data }) => {
+  /*Destructuring data */
+  const { name, image, link, year, tecnology } = data;
   return (
     <ContainerGeneral>
       <Header>
         <div className="title">
-          <h2>Nombre del proyecto</h2>
-          <p>2021</p>
+          <h2>{name}</h2>
+          <p>{year}</p>
         </div>
-        <img src={IconExternal} alt="External Link" />
+        <ExternalLink href={link}>
+          <img src={IconExternal} alt="External Link" />
+        </ExternalLink>
       </Header>
       <ContainerImg>
-        <img src={Prueba} alt="prueba" />
+        <img src={image} alt={name} />
         <Shadow />
       </ContainerImg>
       <Footer>
         <div className="line" />
-        <p>Html - css</p>
+        <p>{tecnology}</p>
       </Footer>
     </ContainerGeneral>
   );
@@ -28,14 +32,14 @@ const BoxProject = () => {
 export default BoxProject;
 
 const ContainerGeneral = styled.div`
-  width: calc(100% / 2);
-  margin: 1rem;
+  width: calc(100% / 2 - 4rem);
+  margin: 2rem;
   height: auto;
-  max-width: 600px;
   min-width: 400px;
   @media (max-width: 768px) {
     width: 100%;
     min-width: fit-content;
+    margin: 2rem 1rem;
   }
 `;
 
@@ -53,10 +57,10 @@ const Header = styled.div`
       color: var(--text2);
     }
   }
-  > img {
+  > a img {
     transition: 0.4s;
   }
-  > img:hover {
+  > a img:hover {
     cursor: pointer;
     transform: scale(0.8);
   }
@@ -89,7 +93,7 @@ const Footer = styled.div`
   display: flex;
   align-items: center;
   .line {
-    height: 4px;
+    height: 2px;
     background-color: var(--color1);
     flex: 1;
   }

@@ -20,6 +20,10 @@ const ContainerGeneral = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  @media (max-width: 767px) {
+    padding: 2rem 0;
+    margin: 1rem 0;
+  }
   .line {
     width: 20%;
     max-width: 250px;
