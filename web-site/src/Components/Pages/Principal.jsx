@@ -5,6 +5,7 @@ import ScrollProgress from "../bar-progress";
 import Header from "../header";
 import Intro from "../intro";
 import SectionTitle from "../SectionTitle";
+import SectionContact from "./SectionContact";
 import SectionProjects from "./SectionProjects";
 
 const Principal = () => {
@@ -19,6 +20,7 @@ const Principal = () => {
       <SectionTitle label="Proyectos" />
       <SectionProjects />
       <SectionTitle label="Contacto" />
+      <SectionContact />
     </ContainerGeneral>
   );
 };
