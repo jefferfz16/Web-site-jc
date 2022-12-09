@@ -73,6 +73,9 @@ const Containers = styled.div`
       font-size: 0.8rem;
       line-height: 2;
     }
+    > p::selection {
+      background-color: var(--color4);
+    }
   }
 `;
 
