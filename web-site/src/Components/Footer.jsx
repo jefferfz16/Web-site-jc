@@ -26,4 +26,11 @@ const Container = styled.div`
   > p:last-child {
     color: var(--text2);
   }
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    text-align: center;
+    & > p:first-child {
+      margin-bottom: 1rem;
+    }
+  }
 `;

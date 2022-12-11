@@ -22,6 +22,7 @@ const ContainerGeneral = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  z-index: 90;
   @media (max-width: 767px) {
     width: 100%;
   }

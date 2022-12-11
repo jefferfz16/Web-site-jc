@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import iconArrow from "../img/arrowUp.svg";
+import iconCheck from "../img/check.svg";
 import flag from "../img/flag.svg";
 import { ExternalLink } from "react-external-link";
 import copy from "copy-to-clipboard";
@@ -12,6 +13,9 @@ const SectionLinks = () => {
     setText(e.target.attributes.value.value);
     copy(e.target.attributes.value.value);
   };
+  setTimeout(() => {
+    setText("");
+  }, 10000);
   return (
     <ContainerGeneral>
       <Container>
@@ -36,7 +40,11 @@ const SectionLinks = () => {
           </div>
           <div className="link" onClick={handlerCopy} value={mail}>
             <p value={mail}>{text !== "" ? "Copiado" : "Copiar"}</p>
-            <img value={mail} src={iconArrow} alt="Arrow" />
+            <img
+              value={mail}
+              src={text !== "" ? iconCheck : iconArrow}
+              alt="Arrow"
+            />
           </div>
         </RowLine>
         <RowLine>

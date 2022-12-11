@@ -41,6 +41,7 @@ const ContainerGeneral = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  z-index: 90;
   @media (max-width: 767px) {
     width: 100%;
   }
@@ -81,6 +82,9 @@ const Containers = styled.div`
   }
   @media (max-width: 1023px) {
     flex-direction: column;
+    .description {
+      margin-top: 2rem;
+    }
     .description > p {
       max-width: 100%;
     }
