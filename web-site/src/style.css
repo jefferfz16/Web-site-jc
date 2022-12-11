@@ -12,6 +12,8 @@
 a {
   text-decoration: none;
   list-style-type: none;
+  outline-offset: 0;
+  outline: transparent;
 }
 
 ul {

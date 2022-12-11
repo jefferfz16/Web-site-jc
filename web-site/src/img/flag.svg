@@ -1,0 +1,5 @@
+<svg id="flag" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+  <path id="Rectángulo_9" data-name="Rectángulo 9" d="M3,0H9a3,3,0,0,1,3,3V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V3A3,3,0,0,1,3,0Z" fill="#ffff1c"/>
+  <rect id="Rectángulo_10" data-name="Rectángulo 10" width="12" height="4" transform="translate(0 6.088)" fill="#0025c1"/>
+  <path id="Rectángulo_11" data-name="Rectángulo 11" d="M0,0H12a0,0,0,0,1,0,0V1A3,3,0,0,1,9,4H3A3,3,0,0,1,0,1V0A0,0,0,0,1,0,0Z" transform="translate(0 8)" fill="#d80019"/>
+</svg>

@@ -35,7 +35,6 @@ const ContainerGeneral = styled.div`
   width: calc(100% / 2 - 4rem);
   margin: 2rem;
   height: auto;
-  min-width: 400px;
   @media (max-width: 768px) {
     width: 100%;
     min-width: fit-content;

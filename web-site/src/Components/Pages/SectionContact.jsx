@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import Myphoto from "../../img/foto.png";
+import SectionLinks from "../SectionLinks";
 
 const SectionContact = () => {
   return (
@@ -26,6 +27,7 @@ const SectionContact = () => {
           </p>
         </div>
       </Containers>
+      <SectionLinks />
     </ContainerGeneral>
   );
 };
@@ -75,6 +77,12 @@ const Containers = styled.div`
     }
     > p::selection {
       background-color: var(--color4);
+    }
+  }
+  @media (max-width: 1023px) {
+    flex-direction: column;
+    .description > p {
+      max-width: 100%;
     }
   }
 `;

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import styled from "styled-components";
 import ScrollProgress from "../bar-progress";
+import Footer from "../Footer";
 import Header from "../header";
 import Intro from "../intro";
 import SectionTitle from "../SectionTitle";
@@ -21,6 +22,7 @@ const Principal = () => {
       <SectionProjects />
       <SectionTitle label="Contacto" />
       <SectionContact />
+      <Footer />
     </ContainerGeneral>
   );
 };
@@ -28,7 +30,7 @@ const Principal = () => {
 export default Principal;
 
 const ContainerGeneral = styled.div`
-  height: 5000px;
+  height: auto;
   width: 100%;
   display: flex;
   align-items: center;
