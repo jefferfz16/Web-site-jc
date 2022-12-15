@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Web-site-jc/static/css/main.a5d2461d.chunk.css",
+    "main.js": "/Web-site-jc/static/js/main.2af3993c.chunk.js",
+    "main.js.map": "/Web-site-jc/static/js/main.2af3993c.chunk.js.map",
+    "runtime-main.js": "/Web-site-jc/static/js/runtime-main.9cb087e1.js",
+    "runtime-main.js.map": "/Web-site-jc/static/js/runtime-main.9cb087e1.js.map",
+    "static/js/2.a95b1771.chunk.js": "/Web-site-jc/static/js/2.a95b1771.chunk.js",
+    "static/js/2.a95b1771.chunk.js.map": "/Web-site-jc/static/js/2.a95b1771.chunk.js.map",
+    "static/js/3.e7f4a7d8.chunk.js": "/Web-site-jc/static/js/3.e7f4a7d8.chunk.js",
+    "static/js/3.e7f4a7d8.chunk.js.map": "/Web-site-jc/static/js/3.e7f4a7d8.chunk.js.map",
+    "index.html": "/Web-site-jc/index.html",
+    "static/css/main.a5d2461d.chunk.css.map": "/Web-site-jc/static/css/main.a5d2461d.chunk.css.map",
+    "static/js/2.a95b1771.chunk.js.LICENSE.txt": "/Web-site-jc/static/js/2.a95b1771.chunk.js.LICENSE.txt",
+    "static/media/alternovaShop.11941f29.png": "/Web-site-jc/static/media/alternovaShop.11941f29.png",
+    "static/media/arrowDown.347eba19.svg": "/Web-site-jc/static/media/arrowDown.347eba19.svg",
+    "static/media/arrowUp.3e29469f.svg": "/Web-site-jc/static/media/arrowUp.3e29469f.svg",
+    "static/media/arrowUp2.31e05125.svg": "/Web-site-jc/static/media/arrowUp2.31e05125.svg",
+    "static/media/check.e293b60b.svg": "/Web-site-jc/static/media/check.e293b60b.svg",
+    "static/media/developer.84b2e75e.svg": "/Web-site-jc/static/media/developer.84b2e75e.svg",
+    "static/media/externalLink.8261ccc7.svg": "/Web-site-jc/static/media/externalLink.8261ccc7.svg",
+    "static/media/flag.0b27a959.svg": "/Web-site-jc/static/media/flag.0b27a959.svg",
+    "static/media/foto.fd1a1cc2.png": "/Web-site-jc/static/media/foto.fd1a1cc2.png",
+    "static/media/front-end.74fb3a7c.svg": "/Web-site-jc/static/media/front-end.74fb3a7c.svg",
+    "static/media/gifimania.66f5e2bc.png": "/Web-site-jc/static/media/gifimania.66f5e2bc.png",
+    "static/media/hoteles.28474fc9.png": "/Web-site-jc/static/media/hoteles.28474fc9.png",
+    "static/media/landing-1.bd01e58f.png": "/Web-site-jc/static/media/landing-1.bd01e58f.png",
+    "static/media/landing-2.98d1be6f.png": "/Web-site-jc/static/media/landing-2.98d1be6f.png",
+    "static/media/podcast.edd6ba10.png": "/Web-site-jc/static/media/podcast.edd6ba10.png",
+    "static/media/rewardsStore.1dd2937f.png": "/Web-site-jc/static/media/rewardsStore.1dd2937f.png",
+    "static/media/video-intro.ce803d70.mp4": "/Web-site-jc/static/media/video-intro.ce803d70.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cb087e1.js",
+    "static/js/2.a95b1771.chunk.js",
+    "static/css/main.a5d2461d.chunk.css",
+    "static/js/main.2af3993c.chunk.js"
+  ]
+}
