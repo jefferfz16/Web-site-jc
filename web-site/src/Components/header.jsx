@@ -1,16 +1,21 @@
 import React from "react";
 import styled from "styled-components";
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="top">
       <h3>Jefferson cepeda</h3>
       <ul>
         <li>
-          <p>Proyectos</p>
+          <HashLink smooth to="/#projects">
+            Proyectos
+          </HashLink>
         </li>
         <li>
-          <p>Contacto</p>
+          <HashLink smooth to="/#contact">
+            Contacto
+          </HashLink>
         </li>
       </ul>
     </HeaderContainer>
@@ -41,7 +46,7 @@ const HeaderContainer = styled.div`
       align-items: center;
       justify-content: center;
       margin: 0 2px;
-      > p {
+      > a {
         font-size: 0.6rem;
         text-transform: uppercase;
         padding: 0.6rem;

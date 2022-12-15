@@ -3,8 +3,24 @@ import ImageHoteles from '../img/Projects/hoteles.png';
 import ImagePodcast from '../img/Projects/podcast.png';
 import ImageLanding1 from '../img/Projects/landing-1.png';
 import ImageLanding2 from '../img/Projects/landing-2.png';
+import ImageAlternovaShop from '../img/Projects/alternovaShop.png';
+import ImageRewardStore from '../img/Projects/rewardsStore.png';
 
 export const DataProjects = [
+    {
+        name: 'Rewards Store',
+        image: ImageRewardStore,
+        link: 'https://jefferfz16.github.io/rewards-store/',
+        year: '2022',
+        tecnology: 'React js.',
+    },
+    {
+        name: 'Alternova test',
+        image: ImageAlternovaShop,
+        link: 'https://jefferfz16.github.io/alternova-shop/',
+        year: '2022',
+        tecnology: 'React js.',
+    },
     {
         name: 'GIFimanía Search',
         image: ImageGif,

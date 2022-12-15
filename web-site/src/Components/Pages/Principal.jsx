@@ -18,9 +18,9 @@ const Principal = () => {
       <Header />
       <ScrollProgress />
       <Intro />
-      <SectionTitle label="Proyectos" />
+      <SectionTitle id="projects" label="Proyectos" />
       <SectionProjects />
-      <SectionTitle label="Contacto" />
+      <SectionTitle id="contact" label="Contacto" />
       <SectionContact />
       <Footer />
     </ContainerGeneral>

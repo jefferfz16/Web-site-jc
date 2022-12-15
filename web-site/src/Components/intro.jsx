@@ -38,7 +38,7 @@ const Intro = () => {
       <div className="descriptionIntro">
         <p>
           Un salto de diseñador UX/UI a Front end, en este sitio encuentrarás
-          los proyectos que hasta el momento e realizado con mi experiencia.
+          algunos proyectos realizados con mi conocimiento y experiencia.
         </p>
       </div>
       <IconScroll />
@@ -146,6 +146,7 @@ const Front = styled.p`
   transition: 0.2s;
   z-index: 80;
   left: -20px;
+  pointer-events: none;
   transform: translateX(-${(props) => (props.porcent ? props.porcent : 0)}%);
   @media (max-width: 1023px) {
     font-size: 350px;

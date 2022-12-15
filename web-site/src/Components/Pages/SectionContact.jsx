@@ -20,10 +20,11 @@ const SectionContact = () => {
           <p className="title">Hola,</p>
           <p>
             Mi nombre es Jefferson Cepeda soy diseñador gráfico con enfoque en
-            diseño UX/UI, cuento con 9 años trabajando en el entorno de diseñar
-            experiencias y productos digitales, ahora también cuento con las
-            habilidades de programación en (React.js, HTML, CSS, JS), siempre
-            con la mejor actitud de seguir creciendo y aprendiendo.
+            diseño UX/UI, cuento con <b>+9 años</b> trabajando en el entorno de
+            diseñar experiencias y productos digitales, y con{" "}
+            <b>+2 años como desarrollador Front-End</b> manejando estas
+            tecnologías (React.js, HTML, CSS, JS), siempre con la mejor actitud
+            de seguir creciendo y aprendiendo.
           </p>
         </div>
       </Containers>
