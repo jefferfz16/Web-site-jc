@@ -8,12 +8,12 @@ const Header = () => {
       <h3>Jefferson cepeda</h3>
       <ul>
         <li>
-          <HashLink smooth to="/#projects">
+          <HashLink smooth to="/Web-site-jc#projects">
             Proyectos
           </HashLink>
         </li>
         <li>
-          <HashLink smooth to="/#contact">
+          <HashLink smooth to="/Web-site-jc#contact">
             Contacto
           </HashLink>
         </li>

@@ -12,11 +12,11 @@ const SectionTitle = ({ label, id }) => {
         <h4>{label}</h4>
       </div>
       <div className="btn">
-        <HashLink smooth to="/#top">
+        <HashLink smooth to="/Web-site-jc#top">
           <img src={IconArrowUp} alt="up" />
         </HashLink>
         {label !== "Contacto" && (
-          <HashLink smooth to="/#contact">
+          <HashLink smooth to="/Web-site-jc#contact">
             <img src={IconArrowDown} alt="down" />
           </HashLink>
         )}
